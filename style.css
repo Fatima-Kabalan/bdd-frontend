@@ -39,4 +39,51 @@ li{
 
 /* Hero */
 
+.hero {
+    color: #fff;
+    position: relative;
+}
 
+.hero-image {
+    background: url("./Images/hero1.jpg");
+    /* filter:brightness(99%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-content {
+    padding: 40vh 0 10vh 0;
+    width: 50%;
+}
+
+.hero-heading {
+    font-size: 64px;
+    margin-bottom: 40px;
+    text-align: center!important;
+}
+
+/* Utlities */
+
+.container {
+padding: 0 12vh;
+width: 100%;
+}
+
+.btn {
+padding: 14px 10px;
+border: none;
+border-radius: 30px;
+width:110px;
+}
+
+.btn-blue {
+background-color: rgb(66, 167, 214);
+color: #fff;
+font-weight:bold;
+}
+
+.bold {
+font-weight: bolder;
+}
+  
