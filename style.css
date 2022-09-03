@@ -1,0 +1,42 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img {
+    height: 100%;
+}
+
+/* Nav Bar */
+
+.top-nav{
+    display:flex;
+    justify-content:space-between;
+    height:80px;
+}
+
+.links{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+li{
+    text-transform:uppercase;
+    display:flex;
+    padding-right:2em;
+}
+
+.links > li:last-child {
+    margin-right: 0px;
+}
+
+/* Hero */
+
+
