@@ -130,6 +130,7 @@ li{
     padding: 2px 11px;
     margin-top: 40px;
     margin-bottom: 100px;
+    border-radius:10%;
 }
 
 .card:hover {
@@ -180,5 +181,39 @@ li{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+/* Join */
+
+.join-header{
+    font-size:larger;
+    margin-bottom:2vh;
+}
+
+.join-bdd{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: left;
+    margin-top:30px;
+}
+.join-bdd-img{
+    width:70%;
+    height:80%;
+}
+
+.card-hdr-join{
+    margin:14px;
+    text-align:left;
+}
+
+
+.li-style{
+    list-style-image:url("./Images/bullet1.png");
+}
+   
+
+.join-cont{
+    margin-right:40px;
 }
 
