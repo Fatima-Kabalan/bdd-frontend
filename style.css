@@ -87,24 +87,40 @@ li{
     font-weight: bolder;
 }
 
-/* Foundation */
-
-.header-found{
-    font-weight: bolder;
-    font-size: large;
+.header{
     display: flex;
     justify-content: center;
     margin-top:70px;
     margin-bottom:40px;
+    font-weight:bolder;
 }
 
-.found-center{
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    
+/* Foundation */
 
+.header-found{
+    font-size: large;
 }
+
+.container-found{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.container-found> h1 {
+    font-size: 64px;
+    text-align: center;
+    width: 50vw;
+}
+  
+.found-cards{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -113,7 +129,7 @@ li{
     height:20%;
     padding: 2px 11px;
     margin-top: 40px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 .card:hover {
@@ -140,5 +156,29 @@ li{
 
 .card-img{
    padding-top:4vh;
+}
+
+/* Video section */
+
+.video-header{
+    color:rgb(255, 250, 250);
+    font-size:larger;
+    padding-top:50px;
+    filter:brightness(40%);
+
+}
+
+.image-video{
+    background-image: url("./Images/videopic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter:brightness(70%);
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
