@@ -229,7 +229,6 @@ li{
     font-size:larger;
     padding-top:14px;
     padding-bottom:14px;
-    padding-left:22px;
 }
 
 
@@ -244,9 +243,50 @@ li{
    display:flex;
    flex-direction:row;
    justify-content:space-between;
-   align-items:flex-end;
+   align-items: center;
 }
 
-.img-join{
-    width:20%;
+
+/* Stat hub  */
+
+.img-bg-stat{
+    background-image: url("./Images/parallax-light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hdr-stat{
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-bottom:2vh;
+}
+
+.stat-nb{
+    font-size:medium;
+    padding-left:40px;
+    line-height: 5vh;
+    height: 5vh;
+    -webkit-text-stroke-width: 2px;
+    font-family: The Mix Black;
+    font-size: 5vh;
+    font-weight: 200;
+    color: transparent;
+
+}
+
+.stat-1{
+    -webkit-text-stroke-color:#009a9e;
+}
+
+.stat-2{
+    -webkit-text-stroke-color:#cf2bac;
+}
+
+.stat-3{
+    -webkit-text-stroke-color:#252fc0;
+}
+
+.stat-4{
+    -webkit-text-stroke-color:#79bb77;
 }
