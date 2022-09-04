@@ -147,6 +147,13 @@ li{
     font-size: medium;
 }
 
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+       
+
+
 .parag-card{
     text-align:center;
     padding-left:5vh;
@@ -217,3 +224,29 @@ li{
     margin-right:40px;
 }
 
+
+.b-line{
+    font-size:larger;
+    padding-top:14px;
+    padding-bottom:14px;
+    padding-left:22px;
+}
+
+
+.elemnts-column{
+   display:flex;
+   justify-content:space-around;
+   flex-flow:column;
+   align-items:flex-end;
+}
+
+.pics-row{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:flex-end;
+}
+
+.img-join{
+    width:20%;
+}
